@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Web №2</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="header_solo">
+				<div id="logo"></div>
+				<div id="name">
+					<h1 class="text_header">late page</h1>
+				</div>
+			</div>
+		</header>
+
+		<nav class="menu">
+			<ul>
+				<li><a href=#123 class="current">Задание 1</a></li>
+				<li><a href=#234>Таблица</a></li>
+				<li><a href=#345>Форма</a></li>
+			</ul>
+		</nav>
+
+		<h1 id="123">Список гиперссылок</h1>
+		<ol>
+			<li><a href="http://example.com" id="#menu">ссылка 1</a></li>
+			<li><a href="https://example.com">ссылка 2</a></li>
+			<li><a href="ftp://public.ftp-servers.example.com/mydirectory/file.zip">ссылка 3</a></li>
+			<li><a href="ftp://user001:secretpassword@private.ftp-servers.example.com/mydirectory/file.zip">ссылка 4</a></li>
+			<li><a href="https://kozinalexandr.github.io/Yolo/#back" target="_blank">ссылка 5</a></li>
+			<li><a href="#“dolor”">ссылка 6</a></li>
+			<li><a href="https://www.example.com?key=Heroes_of_Might__Magic&version=delux" target="_blank">ссылка 7</a></li>
+			<li><a href="#task1" title="Первая часть задания">Ссылка на начало</a></li>
+			<li><a href="#forma" title="Вторая часть задания">Ссылка на форму</a></li>
+			<li><a>ссылка 9</a></li>
+			<li><a href="">ссылка 10</a></li>
+			<li><a href="http://example.com" rel = "nofollow">ссылка 11</a></li>
+			<li><a href="http://example.com" rel = "noindex">ссылка 12</a></li>
+			<li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="http://commodi.com">commodi</a>.</p></li>
+			<li><a href="http://example.com" target="_blank"><img src="57fb336134b41117c33ad8b123446c2c.gif" width="50" height="50" alt="Example"></a></li>
+			<li>
+				<img src = "57fb336134b41117c33ad8b123446c2c.gif" id="img" usemap = "#figuri" alt = "There are 2 selections of the picture area">
+				<map name = "figuri">
+					<area shape = "rect" coords = "0,0,110,80" href = "http://yandex.ru" alt = "Квадрат">
+					<area shape = "circle" coords = "150,110,50" href = "http://google.com" alt = "Круг">
+				</map>
+			</li>
+			<li><a href="lap.html">ссылка 16</a></li>
+			<li><a href="about/about.html">ссылка 17</a></li>
+			<li><a href="../index.html">ссылка 18</a></li>
+			<li><a href="../../index.html">ссылка 19</a></li>
+			<li><a href="/">ссылка 20</a></li>
+			<li><a href="/about">ссылка 21</a></li>
+		</ol>
+	
+	
+		<form id = "345">
+	
+			<label>
+				Введите имя<br>
+				<input name="field-name-1" value="Orlando">
+			</label><br>
+	
+			<label>
+				Введите email:<br>
+				<input name="field-gmail" value="Orlando@example.com" type="gmail">
+			</label><br>
+	
+			<label>
+				Введите дату рождения<br>
+				<input name="field-date" value="11.09.2001" type="date">
+			</label><br>
+	
+			Введите пол:<br>
+			<label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+				Мужской</label><br>
+			<label><input type="radio" name="radio-group-1" value="Значение2">
+				Женский</label><br>
+	
+			Выберите кол-во используемых техник:<br>
+			<label><input type="radio" checked="checked" name="radio-group-1" value="Значение1">
+				1</label>
+			<label><input type="radio" checked="checked" name="radio-group-1" value="Значение2">
+				2</label>
+			<label><input type="radio" checked="checked" name="radio-group-1" value="Значение3">
+				3</label>
+			<label><input type="radio" name="radio-group-1" value="Значение4">
+				4</label>
+			<label><input type="radio" name="radio-group-1" value="Значениие 5">
+				Больше 5х</label><br>
+	
+			<label>
+				Ваша деревня шиноби:
+				<br>
+				<select name="field-name-4[]" multiple="multiple">
+					<option value="Значение1">Скрытая в листве</option>
+					<option value="Значение2" selected="selected">Скрытая в тумане</option>
+					<option value="Значение3" selected="selected">Скрытая в скале</option>
+				</select>
+			</label><br>
+	
+			<label>
+				Биография:
+				<br>
+				<textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Напишите о себе</textare>
+			</label><br>
+	
+			<label><input type="checkbox" checked="checked" name="check-1">
+				с контрактом ознакомлен (а)</label><br>
+	
+			<input type="submit" value="Отправить">
+		</form>
+
+		<h1 id="234">Таблица</h1>
+                <table border = "1">
+                    <tr>
+                        <th>Колонка 1</th>
+                        <th>Колонка 2</th>
+                        <th>Колонка 3</th>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 11</td>
+                        <td>Ячейка 12</td>
+                        <td>Ячейка 13</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Ячейка 21 объединенная с 22</td>
+                        <td rowspan="2">Ячейка 23 и 33</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 31</td>
+                        <td>Ячейка 32</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 41</td>
+                        <td>Ячейка 42</td>
+                        <td>Ячейка 43</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Ячейка 51 объединенная с 52 и 53</td>
+                    </tr>
+                </table>
+				<footer>Соловьев Роман a.k.a Romero Orlando 2k21</footer>
+	</body>
+</html>
